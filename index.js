@@ -18,7 +18,7 @@ const client = new Client({
     ]
 });
 
-// Log readiness state and connect database
+// Log readiness state
 client.on("ready", async() => {
     // log client readiness
     console.log("I am ready!");
